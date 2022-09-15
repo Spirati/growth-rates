@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  bot:
+    build: ./src
+    environment:
+      DISCORD_TOKEN: "MTAxOTc3OTAzNjI5NTIyMTI1OQ.GqAkpc.Wjly6ihRbOdqzgbOdgvY3ABD8azMHhbp9eZlRw"
+    volumes:
+      - ./db:/bot/db
