@@ -25,7 +25,3 @@ CREATE TABLE IF NOT EXISTS Classes (
     def int,
     res int
 );
-
-INSERT OR IGNORE INTO Classes ( id, hp, str, mag, dex, spd, lck, def, res ) VALUES (
-    "42069-test class",             420, 69,  69,  69,  69,  69,  69,  69  
-);

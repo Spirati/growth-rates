@@ -21,4 +21,5 @@ class SqliteContext:
         
     def __exit__(self, type, value, traceback):
         self.cursor.fetchall()
-        self.cursor.close
+        self.cursor.close()
+        self.connection.commit()
